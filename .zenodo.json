@@ -1,0 +1,22 @@
+{
+  "title": "Case management for an emergency reception community for minors (Microsoft Access, 2019)",
+  "upload_type": "software",
+  "description": "<p><em>Gestione di una comunità di pronta accoglienza per minori</em></p><p>This application supported the educators of an emergency reception community for unaccompanied foreign minors placed by the municipal child-protection service. Each educator logs in, registers the minors hosted and fills in the forms required by the municipality: admission, transfer, discharge and runaway reports, the individual educational plan (PEI) and the minutes of verification meetings. The application was built on the framework of an earlier school-management database, whose Slovene-language menus it partly keeps.</p><p>Designed and programmed by Massimo Sbarbaro in 2019 (Microsoft Access). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "creators": [
+    {
+      "name": "Sbarbaro, Massimo",
+      "orcid": "0009-0006-8965-9013"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Microsoft Access",
+    "social services",
+    "child protection",
+    "unaccompanied minors",
+    "case management"
+  ],
+  "version": "3.9",
+  "language": "eng",
+  "notes": "Original development: 2019."
+}

@@ -1,0 +1,321 @@
+Version =21
+VersionRequired =20
+Checksum =1361493787
+Begin Form
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    ViewsAllowed =1
+    TabularCharSet =204
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =12239
+    DatasheetFontHeight =11
+    ItemSuffix =10
+    Left =-3015
+    Top =13695
+    Right =9360
+    Bottom =16665
+    RecSrcDt = Begin
+        0x6d1e4ca8f608e540
+    End
+    GUID = Begin
+        0x150b30ee5b71ea40b5154c8722e5d4ff
+    End
+    RecordSource ="Condizioni"
+    Caption ="Condizioni"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =10
+            BorderColor =13482143
+            ForeColor =6112838
+            FontName ="Gill Sans MT"
+        End
+        Begin Rectangle
+            BackStyle =0
+            OldBorderStyle =4
+            BorderLineStyle =3
+            Width =850
+            Height =850
+            BorderColor =13482143
+        End
+        Begin Line
+            OldBorderStyle =4
+            BorderLineStyle =3
+            Width =1701
+            BorderColor =13482143
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =4
+            BorderLineStyle =3
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BorderColor =13482143
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontWeight =400
+            ForeColor =6112838
+            FontName ="Gill Sans MT"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            OldBorderStyle =4
+            BorderLineStyle =3
+            LabelX =230
+            LabelY =-30
+            BorderColor =13482143
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            BackStyle =1
+            OldBorderStyle =4
+            BorderLineStyle =3
+            Width =1701
+            Height =1701
+            BorderColor =13482143
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            OldBorderStyle =4
+            BorderLineStyle =3
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =13482143
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =4
+            TextFontCharSet =204
+            BorderLineStyle =3
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =13482143
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontCharSet =204
+            OldBorderStyle =4
+            BorderLineStyle =3
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =11
+            BorderColor =13482143
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            OldBorderStyle =4
+            TextFontCharSet =204
+            BorderLineStyle =3
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =13482143
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =13482143
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            OldBorderStyle =4
+            BorderLineStyle =3
+            Width =4536
+            Height =2835
+            BorderColor =13482143
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =13482143
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontWeight =400
+            ForeColor =6112838
+            FontName ="Gill Sans MT"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontCharSet =204
+            Width =5103
+            Height =3402
+            FontSize =11
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =481
+            BackColor =6112838
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x69d02472d6b491408decaa733c6257c5
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =56
+                    Top =129
+                    Width =1773
+                    Height =330
+                    ForeColor =15526365
+                    Name ="Tipo_Etichetta"
+                    Caption ="Tipo"
+                    FontName ="Bookman Old Style"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x7cfadd22b3bdbd408eb2d11fab290399
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =1904
+                    Top =129
+                    Width =1141
+                    Height =330
+                    ForeColor =15526365
+                    Name ="Data_Etichetta"
+                    Caption ="Data"
+                    FontName ="Bookman Old Style"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x514aea01ef147241bbc3bc79eeaf0cf7
+                    End
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =3120
+                    Top =129
+                    Width =9081
+                    Height =330
+                    ForeColor =15526365
+                    Name ="Descrizione_Etichetta"
+                    Caption ="Descrizione"
+                    FontName ="Bookman Old Style"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xb0b17899f59e0641b1f2bd2da00c8081
+                    End
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextFontFamily =18
+                    Left =6300
+                    Width =3600
+                    Height =435
+                    FontSize =16
+                    ForeColor =15526365
+                    Name ="Etichetta8"
+                    Caption ="Condizioni psicofisiche"
+                    FontName ="Bookman Old Style"
+                    GUID = Begin
+                        0xeb9173e386e9c846a0a2c109f2b69611
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =566
+            BackColor =15526365
+            Name ="Corpo"
+            GUID = Begin
+                0xbb6c8ec862ead44597fd062ad191a382
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =1904
+                    Top =120
+                    Width =1141
+                    Height =330
+                    ColumnWidth =1620
+                    TabIndex =2
+                    Name ="Data"
+                    ControlSource ="Data"
+                    GUID = Begin
+                        0x7fbc8b99cd2a4049949298c27045a3bb
+                    End
+
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3120
+                    Top =120
+                    Width =9081
+                    Height =330
+                    TabIndex =1
+                    Name ="Descrizione"
+                    ControlSource ="Descrizione"
+                    GUID = Begin
+                        0x036f24a51f2e8940a55b72166a38e756
+                    End
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =56
+                    Top =120
+                    Width =1773
+                    Height =330
+                    ColumnWidth =3000
+                    ColumnInfo ="\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x658a9c549b54544ba8f53398d3796201
+                    End
+                    Name ="Tipo"
+                    ControlSource ="Tipo"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Condizioni.Tipo FROM Condizioni GROUP BY Condizioni.Tipo;"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =15526365
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x4ab03ca4640b6042a4cc0f3d747776b2
+            End
+        End
+    End
+End

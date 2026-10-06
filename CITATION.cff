@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you refer to this software, please cite it as below."
+type: software
+title: "Case management for an emergency reception community for minors (Microsoft Access, 2019)"
+version: "3.9"
+abstract: "This application supported the educators of an emergency reception community for unaccompanied foreign minors placed by the municipal child-protection service. Each educator logs in, registers the minors hosted and fills in the forms required by the municipality: admission, transfer, discharge and runaway reports, the individual educational plan (PEI) and the minutes of verification meetings. The application was built on the framework of an earlier school-management database, whose Slovene-language menus it partly keeps."
+authors:
+  - family-names: Sbarbaro
+    given-names: Massimo
+    orcid: "https://orcid.org/0009-0006-8965-9013"
+license: MIT
+repository-code: "https://github.com/massimosbarbaro/reception-community-minors-access"
+keywords:
+  - "Microsoft Access"
+  - "social services"
+  - "child protection"
+  - "unaccompanied minors"
+  - "case management"

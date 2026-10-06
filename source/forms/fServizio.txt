@@ -1,0 +1,422 @@
+Version =21
+VersionRequired =20
+Checksum =-1070380278
+Begin Form
+    RecordSelectors = NotDefault
+    DividingLines = NotDefault
+    FilterOn = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularCharSet =204
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11792
+    DatasheetFontHeight =11
+    ItemSuffix =14
+    Left =570
+    Top =1290
+    Right =13245
+    Bottom =6030
+    Filter ="[IdP]=1"
+    RecSrcDt = Begin
+        0x2b2d0f52f808e540
+    End
+    GUID = Begin
+        0x66c8dee2acb21a43a9213e33cf49cb00
+    End
+    RecordSource ="Servizio"
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =255
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =11
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12632256
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ComboBox
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12632256
+            FontName ="Calibri"
+        End
+        Begin FormHeader
+            Height =711
+            BackColor =16768194
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xac78d065c7c75b4d9cf6383aa017848e
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =1288
+                    Top =60
+                    Width =3989
+                    Height =569
+                    FontSize =18
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =8998176
+                    Name ="Auto_Title0"
+                    Caption ="Servizio sociale e diversi"
+                    FontName ="Segoe UI"
+                    GUID = Begin
+                        0xbadba225871f9847a088236300365ea8
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =8220
+                    Top =170
+                    Height =315
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0x19c8166b648ca74684b243b86c318d75
+                    End
+
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =6519
+                            Top =170
+                            Width =435
+                            Height =315
+                            Name ="Etichetta13"
+                            Caption ="IdP:"
+                            GUID = Begin
+                                0x07c9c731db28ea408cbe2faedfd5efb1
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =2437
+            Name ="Corpo"
+            GUID = Begin
+                0x4b8c1cc58492384a901add18346406f1
+            End
+            Begin
+                Begin ComboBox
+                    OverlapFlags =87
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1229
+                    Top =360
+                    Width =10440
+                    Height =359
+                    ColumnInfo ="\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x1945d0f94089dc4a9ce9d267d49f6078
+                    End
+                    Name ="Ambito"
+                    ControlSource ="Ambito"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Servizio.Ambito FROM Servizio GROUP BY Servizio.Ambito;"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =360
+                            Top =360
+                            Width =869
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta5"
+                            Caption ="Ambito:"
+                            GUID = Begin
+                                0x87c8bc42dcbe7e4b802925365a3cefca
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =87
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1319
+                    Top =794
+                    Width =1635
+                    Height =359
+                    TabIndex =1
+                    ColumnInfo ="\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x704d0e67f832d6408b5fa71f1c8d81e6
+                    End
+                    Name ="Comune"
+                    ControlSource ="Comune"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Servizio.Comune FROM Servizio GROUP BY Servizio.Comune;"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =360
+                            Top =794
+                            Width =959
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta7"
+                            Caption ="Comune:"
+                            GUID = Begin
+                                0xfbaf681242baa04e9f2d14c925e9a25b
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =5009
+                    Top =793
+                    Width =6645
+                    Height =359
+                    TabIndex =2
+                    ColumnInfo ="\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x53e9b2a6fdf1ac4593996a1ee03a0eae
+                    End
+                    Name ="Assistente sociale"
+                    ControlSource ="Assistente sociale"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Servizio.[Assistente sociale] FROM Servizio GROUP BY Servizio.[Assistente"
+                        " sociale];"
+                    EventProcPrefix ="Assistente_sociale"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =3118
+                            Top =793
+                            Width =1844
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta9"
+                            Caption ="Assistente sociale:"
+                            GUID = Begin
+                                0x1a02fc771a882645871d587c7d1a030f
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =87
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1569
+                    Top =1417
+                    Width =10110
+                    Height =899
+                    TabIndex =3
+                    ColumnInfo ="\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0xdcfb1ba975cbc44ca9d72d8efe6c41bf
+                    End
+                    Name ="Altri servizi"
+                    ControlSource ="Altri servizi"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Servizio.[Altri servizi] FROM Servizio GROUP BY Servizio.[Altri servizi];"
+                    EventProcPrefix ="Altri_servizi"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =340
+                            Top =1417
+                            Width =1229
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta11"
+                            Caption ="Altri servizi:"
+                            GUID = Begin
+                                0xc2025a70c95f3344a77e649973288357
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =793
+            BackColor =14270637
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xea53284bd3580648a72cb2f6d31931dc
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =11055
+                    Top =56
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando12"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0xf9d40fb7aef2974bb65a5e42091d8ce9
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Private sOpen As String
+
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+If sOpen <> "" Then
+    IdP = sOpen
+    
+Else
+    'txtIdConservazione.Enabled = True
+End If
+
+End Sub
+
+Private Sub Form_Load()
+ Dim f As Form
+
+ Set f = Forms(Me.Name)
+    If Not IsNull(f.OpenArgs) Then
+        sOpen = f.OpenArgs
+      
+        
+    Else
+       sOpen = ""
+    End If
+End Sub
+
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    If Me.Dirty Then Me.Dirty = False
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub

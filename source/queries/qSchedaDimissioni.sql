@@ -1,0 +1,2 @@
+SELECT Go.IdP, Go.Cognome, Go.Nome, Go.LuogoN, Go.DataN, SchedaDimissioni.Data, SchedaDimissioni.Struttura, SchedaDimissioni.Decisioni, Go.Selezione, SchedaDimissioni.Ora, SchedaDimissioni.Documenti, Referenti.Cognome, Referenti.Nome, Referenti.Mail, Referenti.Documento, SchedaIngresso.AffidatoDa, SchedaIngresso.Ora, SchedaIngresso.Data
+FROM (Referenti INNER JOIN ([Go] INNER JOIN SchedaDimissioni ON Go.IdP = SchedaDimissioni.IdP) ON Referenti.IdRe = SchedaDimissioni.IdRe) LEFT JOIN SchedaIngresso ON Go.IdP = SchedaIngresso.IdP;

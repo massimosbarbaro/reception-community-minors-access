@@ -1,0 +1,625 @@
+Version =21
+VersionRequired =20
+Checksum =-98231386
+Begin Report
+    LayoutForPrint = NotDefault
+    PopUp = NotDefault
+    Modal = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularCharSet =204
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11295
+    DatasheetFontHeight =11
+    ItemSuffix =57
+    Left =4020
+    Top =2160
+    Right =16095
+    Bottom =13305
+    Filter ="[Selezione]=-1"
+    RecSrcDt = Begin
+        0xe24c9ceb9b0fe540
+    End
+    GUID = Begin
+        0x1407944d49d3304f8ac7ba70642aa80a
+    End
+    RecordSource ="qSchedaTrasferimento"
+    Caption ="Scheda Ingresso"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000722b00000d11000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontCharSet =161
+            FontSize =9
+            FontWeight =700
+            BorderColor =5066944
+            ForeColor =11830108
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin Line
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =5066944
+        End
+        Begin Image
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin CommandButton
+            TextFontCharSet =161
+            Width =1701
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            OldBorderStyle =0
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =5066944
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =5066944
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            TextFontCharSet =161
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontCharSet =161
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontCharSet =161
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin ToggleButton
+            TextFontCharSet =161
+            Width =283
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontCharSet =161
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontSize =9
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="IdP"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =0
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x06fb02cf50d6be449a014c12d9870da9
+            End
+        End
+        Begin PageHeader
+            Height =2835
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x9a93604dad6421489757f5f0684fdb46
+            End
+            Begin
+                Begin Label
+                    TextFontCharSet =238
+                    TextFontFamily =18
+                    Left =2948
+                    Width =5640
+                    Height =525
+                    FontSize =20
+                    ForeColor =5054976
+                    Name ="Etichetta18"
+                    Caption ="SERVIZIO DI ACCOGLIENZA"
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0x70e92adfc0f36c42a9fc38c9acc4de99
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =10205
+                    Top =170
+                    Width =330
+                    Height =270
+                    FontWeight =700
+                    ForeColor =11830108
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0x919af28ade42b147b745de68ff1f5faf
+                    End
+
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    TextFontFamily =18
+                    Left =2211
+                    Top =624
+                    Width =7155
+                    Height =525
+                    FontSize =20
+                    ForeColor =5054976
+                    Name ="Etichetta42"
+                    Caption ="COMUNITA' DI PRONTA ACCOGLIENZA"
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0x643a41efe660284ca523db852b9c1e77
+                    End
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    TextFontFamily =18
+                    Left =3912
+                    Top =1077
+                    Width =4005
+                    Height =525
+                    FontSize =20
+                    ForeColor =5054976
+                    Name ="Etichetta43"
+                    Caption ="Trasferimento MSNA "
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0xce22ff32d25c2146b55c3860024792a4
+                    End
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    TextFontFamily =18
+                    Top =1757
+                    Width =5955
+                    Height =525
+                    FontSize =20
+                    ForeColor =5054976
+                    Name ="Etichetta46"
+                    Caption ="Comune - Area Minori"
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0xb49ec00781c61b4f9b5822c18083c5ce
+                    End
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =8391
+                    Top =1757
+                    Width =2505
+                    Height =510
+                    FontSize =20
+                    TabIndex =1
+                    Name ="Testo19"
+                    ControlSource ="=Now()"
+                    Format ="Short Date"
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0x764658364943f643bfe6c38397910ec7
+                    End
+
+                End
+                Begin Label
+                    TextFontCharSet =238
+                    TextFontFamily =18
+                    Left =7370
+                    Top =1757
+                    Width =945
+                    Height =525
+                    FontSize =20
+                    ForeColor =5054976
+                    Name ="Etichetta47"
+                    Caption ="Data"
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0xedafac8be8fe1044aa665957d4ecb742
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =226
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0xd1c5a0bd954ec143a95f0b9712691a75
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =4102
+            Name ="Corpo"
+            GUID = Begin
+                0x7ca6b9b0b15a4943abf6af234ca82109
+            End
+            Begin
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =1587
+                    Top =737
+                    Width =4650
+                    Height =390
+                    FontSize =14
+                    ForeColor =11830108
+                    Name ="Cognome"
+                    ControlSource ="Go.Cognome"
+                    GUID = Begin
+                        0x75940c279adeec4d86be46d227e0297c
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =6406
+                    Top =737
+                    Width =4650
+                    Height =390
+                    FontSize =14
+                    TabIndex =1
+                    ForeColor =11830108
+                    Name ="Nome"
+                    ControlSource ="Go.Nome"
+                    GUID = Begin
+                        0x44f371e60a72134ba254c90c09c566dd
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =2494
+                    Top =1360
+                    Width =8565
+                    Height =390
+                    FontSize =14
+                    TabIndex =2
+                    ForeColor =11830108
+                    Name ="LuogoN"
+                    ControlSource ="LuogoN"
+                    GUID = Begin
+                        0xa2ad896ac6cae44b943c75ca38b478ad
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =907
+                    Top =1360
+                    Width =1530
+                    Height =390
+                    FontSize =14
+                    TabIndex =3
+                    ForeColor =11830108
+                    Name ="DataN"
+                    ControlSource ="DataN"
+                    GUID = Begin
+                        0x8ea63bd47da57942af4a567358d4b518
+                    End
+
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =1
+                    Left =60
+                    Top =165
+                    Width =6345
+                    Height =390
+                    FontSize =14
+                    FontWeight =400
+                    ForeColor =5054976
+                    Name ="Cognome_Etichetta"
+                    Caption ="Con la presente comunichiamo il trasferimento in data "
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xc7d102eb5361884ba89a3a09596a51b4
+                    End
+                End
+                Begin Rectangle
+                    BackStyle =0
+                    BorderWidth =1
+                    Top =113
+                    Width =11116
+                    Height =3989
+                    Name ="Casella38"
+                    GUID = Begin
+                        0x37a7d5c02587b84a979ca21d410feaba
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =1
+                    Left =56
+                    Top =737
+                    Width =1275
+                    Height =390
+                    FontSize =14
+                    FontWeight =400
+                    ForeColor =5054976
+                    Name ="Etichetta40"
+                    Caption ="del MSNA "
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x180f3cdd0b46e249863fab902f45aa6e
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =1
+                    Left =56
+                    Top =3685
+                    Width =4575
+                    Height =390
+                    FontSize =14
+                    FontWeight =400
+                    ForeColor =5054976
+                    Name ="Etichetta41"
+                    Caption ="come da allegato verbale trasferimento"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x37f92b82f61a324a9dfd3934105e2262
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =1
+                    Left =56
+                    Top =1360
+                    Width =810
+                    Height =390
+                    FontSize =14
+                    FontWeight =400
+                    ForeColor =5054976
+                    Name ="Etichetta44"
+                    Caption ="nato il"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x649324ed34c79f4a8f9202f6c2c743f2
+                    End
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =6859
+                    Top =170
+                    Width =1536
+                    Height =390
+                    FontSize =14
+                    TabIndex =4
+                    Name ="Data"
+                    ControlSource ="SchedaTrasferimento.Data"
+                    GUID = Begin
+                        0x66405d8795a1fc4082aad03cb12cb96f
+                    End
+
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =1
+                    Left =56
+                    Top =1984
+                    Width =2265
+                    Height =390
+                    FontSize =14
+                    FontWeight =400
+                    ForeColor =5054976
+                    Name ="Etichetta48"
+                    Caption ="presso la struttura "
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x09dc3fe18324404aab6fc5292d06c071
+                    End
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =2437
+                    Top =1984
+                    Width =8580
+                    Height =390
+                    FontSize =14
+                    TabIndex =5
+                    ForeColor =11830108
+                    Name ="Testo49"
+                    ControlSource ="Struttura"
+                    GUID = Begin
+                        0x141d117af5744b4eb6c625156d60637b
+                    End
+
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =1
+                    Left =915
+                    Top =2490
+                    Width =8010
+                    Height =390
+                    FontSize =14
+                    FontWeight =400
+                    ForeColor =5054976
+                    Name ="Etichetta50"
+                    Caption ="Documenti/beni in possesso del MSNA presi in carico dal destinatario"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x213f44b2fe1fc647a1f46342e81e949e
+                    End
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =113
+                    Top =3004
+                    Width =10815
+                    Height =585
+                    FontSize =14
+                    TabIndex =6
+                    ForeColor =11830108
+                    Name ="Testo51"
+                    ControlSource ="Documenti"
+                    GUID = Begin
+                        0xa54116f0e54513418613867dae551d6e
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =8617
+                    Top =170
+                    Width =1536
+                    Height =390
+                    FontSize =14
+                    TabIndex =7
+                    Name ="Testo52"
+                    ControlSource ="SchedaTrasferimento.Ora"
+                    Format ="Short Time"
+                    GUID = Begin
+                        0x39e73bb1af130743a4890b6ce9ce1f14
+                    End
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =1757
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x96a98afa20d4184196c2f688b8cab82d
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =8844
+                    Top =1133
+                    Width =2295
+                    Height =255
+                    FontSize =8
+                    Name ="Testo20"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    GUID = Begin
+                        0xdaf94d02fb635e42805aa92e32a66b88
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x2ae571523fc57e4a95c5e4117fa7f000
+            End
+        End
+    End
+End

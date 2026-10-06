@@ -1,0 +1,510 @@
+Version =21
+VersionRequired =20
+Checksum =-2018418780
+Begin Form
+    DividingLines = NotDefault
+    FilterOn = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularCharSet =204
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9701
+    DatasheetFontHeight =11
+    ItemSuffix =17
+    Left =1140
+    Top =1980
+    Right =11640
+    Bottom =6690
+    Filter ="[IdP]=1"
+    RecSrcDt = Begin
+        0x4f20d8f9380be540
+    End
+    GUID = Begin
+        0x14ac51feea474d40ac552cc321583dcf
+    End
+    RecordSource ="LReP"
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =255
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =11
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12632256
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ComboBox
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12632256
+            FontName ="Calibri"
+        End
+        Begin FormHeader
+            Height =453
+            BackColor =16768194
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xdd5064113b9c534bb84ff8b84a324836
+            End
+            Begin
+                Begin Label
+                    Visible = NotDefault
+                    OverlapFlags =93
+                    Left =340
+                    Width =565
+                    Height =329
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =8998176
+                    Name ="Etichetta1"
+                    Caption ="IdRe"
+                    GUID = Begin
+                        0xb1c0b12851618f439754d23516a4a1d6
+                    End
+                End
+                Begin Label
+                    Visible = NotDefault
+                    OverlapFlags =93
+                    Left =980
+                    Width =455
+                    Height =329
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =8998176
+                    Name ="Etichetta3"
+                    Caption ="IdP"
+                    GUID = Begin
+                        0x7af1cfd536a3f549a25f97418edb5c16
+                    End
+                End
+                Begin Label
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    Left =1510
+                    Width =455
+                    Height =329
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =8998176
+                    Name ="Etichetta5"
+                    Caption ="IdRf"
+                    GUID = Begin
+                        0x015a229a867c6643a778fe0d00ab538d
+                    End
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =340
+                    Width =915
+                    Height =329
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =8998176
+                    Name ="Etichetta7"
+                    Caption ="Data"
+                    GUID = Begin
+                        0x4851499f6b490446bbbc5b929a2826c0
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =4643
+                    Top =5
+                    Width =1710
+                    Height =320
+                    Name ="Referente_Etichetta"
+                    Caption ="Referente"
+                    GUID = Begin
+                        0xe77267f4d1d0ec44a0223f8464d49c77
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =1979
+                    Top =5
+                    Width =930
+                    Height =320
+                    Name ="Ruolo_Etichetta"
+                    Caption ="Ruolo"
+                    GUID = Begin
+                        0xfc9ac2166bf34e4c97425bc389c974cf
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =510
+            Name ="Corpo"
+            GUID = Begin
+                0xc42a23905138fe45a7dfe5ac382f6bd5
+            End
+            Begin
+                Begin TextBox
+                    Visible = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    Left =345
+                    Top =30
+                    Width =565
+                    Height =329
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="IdRe"
+                    ControlSource ="IdRe"
+                    GUID = Begin
+                        0x7babf99d1c20254995a91d63cb7c2590
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    Left =985
+                    Top =30
+                    Width =455
+                    Height =329
+                    TabIndex =1
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0xb0c18a7b6fd48d488d681a1d97655209
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    Left =1515
+                    Top =30
+                    Width =455
+                    Height =329
+                    TabIndex =2
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="IdRf"
+                    ControlSource ="IdRf"
+                    GUID = Begin
+                        0x3460d5b638709d4f8d0e5ea70ae767f8
+                    End
+
+                End
+                Begin TextBox
+                    SpecialEffect =3
+                    OldBorderStyle =0
+                    OverlapFlags =247
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =340
+                    Top =56
+                    Width =1185
+                    Height =329
+                    TabIndex =3
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Data"
+                    ControlSource ="Data"
+                    GUID = Begin
+                        0x5635f6a6ed69e54e8a4d090e9b3cfe0e
+                    End
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =4
+                    ListWidth =4320
+                    Left =4648
+                    Top =56
+                    Width =4874
+                    Height =315
+                    TabIndex =4
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"\";\"\";\"\";\"\";\"10\";\"0\""
+                    GUID = Begin
+                        0xbd3199f24f765d43a0ef8497d2507f0d
+                    End
+                    Name ="Referente"
+                    ControlSource ="IdRe"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Referenti.IdRe, [Cognome] & \" \" & [Nome] AS Nominativo, Referenti.[Lavo"
+                        "ra presso] FROM Referenti ORDER BY Referenti.[Cognome];"
+                    ColumnWidths ="0;1440;1440;1440"
+                    OnDblClick ="[Event Procedure]"
+                    BaseInfo ="\"SELECT Referenti.IdRe, [Cognome] & \"\" \"\" & [Nome] AS Nominativo, Referenti"
+                        ".[Lavora presso] FROM Referenti ORDER BY Referenti.[Cognome];\";\"Referenti\";\""
+                        "\";\"IdRe\";\"Cognome] & \"\" \"\" & [Nome\";\"PrimaryKey\""
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =1984
+                    Top =56
+                    Width =2447
+                    Height =315
+                    TabIndex =5
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0xf3029e9e56c00148aabf8afc596a674d
+                    End
+                    Name ="CasellaCombinata12"
+                    ControlSource ="IdRf"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [RuoloReferenti].[IdRf], [RuoloReferenti].[Ruolo] FROM [RuoloReferenti] O"
+                        "RDER BY [Ruolo];"
+                    ColumnWidths ="0;1440"
+                    BaseInfo ="\"SELECT [RuoloReferenti].[IdRf], [RuoloReferenti].[Ruolo] FROM [RuoloReferenti]"
+                        " ORDER BY [Ruolo];\";\"RuoloReferenti\";\"\";\"IdRf\";\"Ruolo\";\"PrimaryKey\""
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =737
+            BackColor =15590879
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xfbf49d0765bd5c4c9d719909c1712e54
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8900
+                    Top =113
+                    Width =576
+                    Height =516
+                    Name ="cmdEsci"
+                    Caption ="Comando15"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0xff2531320922cd47ac414736d2b2da53
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =6236
+                    Top =113
+                    Width =1035
+                    Height =390
+                    TabIndex =1
+                    Name ="cmdReferenti"
+                    Caption ="Referenti"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x57cf03189ebff14db320eb7e409352e0
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Private sOpen As String
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+If sOpen <> "" Then
+    IdP = sOpen
+    
+Else
+    'txtIdConservazione.Enabled = True
+End If
+
+End Sub
+
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+Private Sub Form_Load()
+ Dim f As Form
+
+ Set f = Forms(Me.Name)
+    If Not IsNull(f.OpenArgs) Then
+        sOpen = f.OpenArgs
+      
+        
+    Else
+       sOpen = ""
+    End If
+
+End Sub
+
+Private Sub cmdref_Click()
+On Error GoTo Err_cmdref_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fReferenti"
+    
+    stLinkCriteria = "[IdRe]=" & Me![IdRe]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdref_Click:
+    Exit Sub
+
+Err_cmdref_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdref_Click
+    
+End Sub
+
+Private Sub Referente_DblClick(Cancel As Integer)
+   Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fReferenti"
+    
+    stLinkCriteria = "[IdRe]=" & Me![IdRe]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog
+    
+
+Exit_Referente_DblClick:
+    Exit Sub
+
+Err_Referente_DblClick:
+    MsgBox Err.Description
+    Resume Exit_Referente_DblClick
+End Sub
+Private Sub cmdReferenti_Click()
+On Error GoTo Err_cmdReferenti_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fReferenti"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog
+
+Exit_cmdReferenti_Click:
+    Exit Sub
+
+Err_cmdReferenti_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdReferenti_Click
+    
+End Sub
