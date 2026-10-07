@@ -4,7 +4,7 @@
 
 *Gestione di una comunità di pronta accoglienza per minori*
 
-**Microsoft Access** · 2019 · version 3.9  
+**db** · 2019 · version 3.9  
 Author: **Massimo Sbarbaro** ([ORCID 0009-0006-8965-9013](https://orcid.org/0009-0006-8965-9013))
 
 ## Overview
@@ -51,7 +51,7 @@ The database is published **empty**: every table has been emptied and the file c
 
 Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23205214](https://doi.org/10.5281/zenodo.23205214).
 
-> Sbarbaro, Massimo. 2019. *Case management for an emergency reception community for minors*. Software (Microsoft Access, 2019), version 3.9. Zenodo. https://doi.org/10.5281/zenodo.23205214.
+> Sbarbaro, Massimo. 2019. *Case management for an emergency reception community for minors*. Software (db, 2019), version 3.9. Zenodo. https://doi.org/10.5281/zenodo.23205214.
 
 ## License
 
