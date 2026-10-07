@@ -1,5 +1,7 @@
 # Case management for an emergency reception community for minors
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23205214.svg)](https://doi.org/10.5281/zenodo.23205214)
+
 *Gestione di una comunità di pronta accoglienza per minori*
 
 **Microsoft Access** · 2019 · version 3.9  
@@ -47,9 +49,9 @@ The database is published **empty**: every table has been emptied and the file c
 
 ## How to cite
 
-Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). Each release is archived on Zenodo with its own DOI.
+Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23205214](https://doi.org/10.5281/zenodo.23205214).
 
-> Sbarbaro, Massimo. *Case management for an emergency reception community for minors (Microsoft Access, 2019)*. Software, version 3.9. GitHub: https://github.com/massimosbarbaro/reception-community-minors-access
+> Sbarbaro, Massimo. 2019. *Case management for an emergency reception community for minors*. Software (Microsoft Access, 2019), version 3.9. Zenodo. https://doi.org/10.5281/zenodo.23205214.
 
 ## License
 
